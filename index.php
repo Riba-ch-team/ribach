@@ -6,18 +6,18 @@
 
 <html>
 	<head>
-		<title>OpenOne'ch</title>
+		<title>RIBA'CH SOURCED EDITION</title>
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
 		<link rel="stylesheet" href="css.css">
 	</head>
 	<body>
 		<center>
-			<h1>OpenOne'ch</h1>
-			<p>Имеджборд от <a href="https://t.me/blopsoft">OpenOne</a> который пробует копировать 4chan и 4pda</p>			
+			<h1>RIBA'CH</h1>
+			<p>Имеджборд от <a href="https://t.me/mitufan">митуфана</a> который собран из <a href="https://github.com/Riba-ch-team/ribach">исходников</a></p>			
 		</center>
 		
-		<h2 align="center">Доски: </h2>
+		<h2 align="center">Темы: </h2>
 		<div class="block">
 			<?php 
 				while($boards = $data->fetch(PDO::FETCH_ASSOC)){
