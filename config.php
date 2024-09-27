@@ -2,10 +2,10 @@
     session_start();
 
     $dbconn = array(
-        'server' => 'localhost',
-        'user' => 'root',
-        'pass' => '',
-        'db' => 'o1ch'
+        'server' => 'Сервер',
+        'user' => 'Пользователь',
+        'pass' => 'Пароль',
+        'db' => 'Ri4'
     );
 
     $db = new PDO("mysql:host=" .$dbconn['server']. ";dbname=" .$dbconn['db'],
